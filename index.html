@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="New note.css">
+    <link rel="stylesheet" href="Delete Last.css">
+    <link rel="stylesheet" href="deleteall.css">
+    <link rel="stylesheet" href="showsaved.css">
+    <title>Notes</title>
+</head>
+<body>
+    <nav>
+        <button id="btn" onclick="addTextBox(event)"><span>New note</span> </button>
+        <!-- <button id="DeleteLast" onclick="deleteLast()">Delete Last</button>   -->
+        <button id="DeleteAll" onclick="deleteAll()">Delete note</button>
+        <button id="Showsaved" onclick="showSavedTab()">Show saved</button>
+    </nav>
+   
+    <div id="box">
+    </div>
+
+    <div id="savedTab" style="display:flexbox; padding: 20px; background-color: lightgray;">
+        <h2>Saved Notes</h2>
+        <div id="savedNotes"></div>
+        <button onclick="hideSavedTab()">Back</button>
+        <button onclick="deleteCheckedNotes()">Delete Notes</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

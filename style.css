@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color:darkslateblue;
+}
+
+#box{
+    display:grid;
+    position: absolute;
+    margin-left: 35%;
+    top: 35%;
+    width: 500px;
+    height: 30%;
+    /* background-color: floralwhite; */
+}
+
+nav{
+    display: inline;
+    justify-content: space-between;
+}
+
+  
+
+
